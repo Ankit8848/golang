@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Welcome to Time Travel World")
+	fmt.Println("Welcome to Time World")
 
 	presentTime := time.Now()
 	fmt.Println(presentTime)
