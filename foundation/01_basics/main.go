@@ -2,6 +2,26 @@ package main
 
 import "fmt"
 
+/* package main = project = workspace
+
+	Types of Packages
+
+	a. Executable => Generates a file that we can run
+
+	eg, package main -> defines a package that can be compiled and then "executed".
+					Must have a func called 'main'.
+
+
+	b. Reusable => Code used as 'helpers'. Good place to put reusable logic
+
+	eg, package ankit -> defines a package that can be used as a dependency code(helper code).
+
+*/
+
+
+
+import "fmt"
+
 // comments
 
 /*
