@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /* package main = project = workspace
 
 	Types of Packages
@@ -21,6 +19,15 @@ import "fmt"
 
 
 import "fmt"
+
+/*
+	import 'packages'
+
+	eg, standard library => fmt, bufio, math, io, debug,..
+
+	eg, reusable packages => other developer made
+
+ */
 
 // comments
 
