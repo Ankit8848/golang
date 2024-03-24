@@ -30,6 +30,21 @@ func main() {
 	var user string = "jha"
 
 	// string formatting => Printf
+	/*
+		Printf - format specifiers
+
+		verb		description
+
+		%v		default format
+		%T		type of the value
+		%d		integer
+		%c		character
+		%q		quoted character/string
+		%s		plain string
+		%t		true or false
+		%f		floating numbers
+		%.2f	floating numbers upto 2 decimal places
+	*/
 	// %v => formats the value in default format.
 	//fmt.Printf("Template string %s", Object args(s))
 	fmt.Printf("Awesome meeting with you %v %v ", name, user)
