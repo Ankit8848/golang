@@ -14,7 +14,28 @@ Integer 	uint8	uint64	int8	int64	uintptr 	alias
 Floating	float32		float64
 Complex
 
+
 Others:  Arrays	 Slices		Maps	Structs		Pointers	Functions	Channels ...
+
+
+	Integer
+
+	Data Type		Memory
+
+		uint8		8 bits or 1 byte
+		uint16		16 bits or 2 bytes
+		uint32		32 bits or 4 bytes
+		uint64		64 bits or 8 bytes
+		int8		8 bits or 1 byte
+		int16		16 bits or 2 bytes
+		int32		32 bits or 4 bytes
+		int64		64 bits or 8 bytes
+		int			4 bytes for 32-bit machines, 8 bytes for 64-bit machines
+
+		-uint means unsigned integer. where only + value include.
+		-int means signed integer. where both + or - value include.
+
+
 
 */
 
