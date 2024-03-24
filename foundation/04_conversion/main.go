@@ -28,3 +28,19 @@ func main() {
 	}
 
 }
+
+/*
+
+	To know the Type of variable
+
+	1st way: using %T - format specifier
+
+	2nd way: using reflect.TypeOf()
+			- function from the reflect package.
+
+	ex: import "reflect"
+	func main() {
+		var name1 string = "ankit"
+		fmt.printf("variable value= %v is of type %v \n",name1, reflect.TypeOf(name1))
+		}
+*/
