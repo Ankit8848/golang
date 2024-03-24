@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	friend := "aman"
+	friend := "khan"
 	fmt.Println(friend)
 
 	reader := bufio.NewReader(os.Stdin)
@@ -18,8 +18,8 @@ func main() {
 
 	input, _ := reader.ReadString('\n')
 
-	// if you dont care about an error, so in place of err - just use "_" .
-	// if you dont care about an input, so in place of input - just use "_" .
+	// if you don't care about an error, so in place of err - just use "_" .
+	// if you don't care about an input, so in place of input - just use "_" .
 
 	fmt.Println("Thanks for saying, ", input)
 	fmt.Printf("Type of this friend height is %T", input)
@@ -63,10 +63,10 @@ func main() {
 
 	// multiple user input
 	// var name1 string
-	// var isKanjoos bool
-	// fmt.Print("Enter your name & are you kanjoos: ")
-	// fmt.Scanf("%s %t", &name1, &isKanjoos)
-	// fmt.Println(name, isKanjoos)
+	// var isHappy bool
+	// fmt.Print("Enter your name & are you Happy: ")
+	// fmt.Scanf("%s %t", &name1, &isHappy)
+	// fmt.Println(name, isHappy)
 
 	//var akj string
 	//var bkj int
