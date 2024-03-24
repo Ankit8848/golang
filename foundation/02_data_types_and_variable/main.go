@@ -93,3 +93,18 @@ func main() {
 	after \n are added to a new line.
 
 */
+
+/*
+	Zero values
+
+	Verb		Description
+
+	int			0
+	float64		0.0
+	string		""
+	bool		false
+
+	pointers,		nil
+	functions,
+	interfaces,maps
+*/
