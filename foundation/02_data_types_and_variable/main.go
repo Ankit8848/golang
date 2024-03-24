@@ -8,8 +8,8 @@ import "fmt"
 - variable type specify before executing.
 - Everything is a Type.
 
-String
-Bool
+String(16 bytes)
+Bool(1 byte)	true  false
 Integer 	uint8	uint64	int8	int64	uintptr 	alias
 Floating	float32		float64
 Complex
@@ -18,7 +18,7 @@ Complex
 Others:  Arrays	 Slices		Maps	Structs		Pointers	Functions	Channels ...
 
 
-	Integer
+For	Integer
 
 	Data Type		Memory
 
@@ -35,6 +35,12 @@ Others:  Arrays	 Slices		Maps	Structs		Pointers	Functions	Channels ...
 		-uint means unsigned integer. where only + value include.
 		-int means signed integer. where both + or - value include.
 
+For Float
+
+	Data Type		memory
+
+	float32			32 bits or 4 bytes
+	float64			64 bits or 8 bytes
 
 
 */
