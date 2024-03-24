@@ -21,6 +21,11 @@ Others:  Arrays	 Slices		Maps	Structs		Pointers	Functions	Channels ...
 // for printing  a variable and string
 // 1st way to initialize variable
 
+// Go is statically typed.
+// variables are assigned a type, either explicitly or implicitly.
+
+// syntax: var <variable name> <data type> = <Value>
+
 const LoginToken string = "LoveYouAll"
 
 // note: 1st character of variable is capital because we want to tell that it is public.
@@ -51,3 +56,13 @@ func main() {
 	fmt.Printf("Variable of type: %T \n", LoginToken)
 
 }
+
+/*
+	Newline character  \n
+
+- used to create a new line
+	and placed within string expressions.
+- when inserted in a string, all the characters
+	after \n are added to a new line.
+
+*/
