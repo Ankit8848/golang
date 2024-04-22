@@ -58,7 +58,30 @@ For Float
 // variables are assigned a type, either explicitly or implicitly.
 
 // syntax: var <variable name> <data type> = <Value>
+// for const Syntax => const <const name> <data type> = <value>
 
+/*
+two types of const: 1. Untyped constant
+
+ 2. Typed constant
+
+ 1. Untyped constant: constant are untyped unless they are explicitly
+    given a type at declaration.
+
+    - allow for flexibility
+
+    ex: const age = 18
+    -	for more than one-
+    ex: const name1, age1 = "ankit", 19
+
+ 2. Typed constant
+    - constants are typed when you explicitly specify the type in
+    the declaration.
+    - flexibility that comes with untyped constant is lost.
+
+    ex: const name string = "ankit jha"
+    const age int = 18
+*/
 const LoginToken string = "LoveYouAll"
 
 // note: 1st character of variable is capital because we want to tell that it is public.
