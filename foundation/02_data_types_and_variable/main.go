@@ -61,6 +61,7 @@ For Float
 // for const Syntax => const <const name> <data type> = <value>
 
 /*
+
 two types of const: 1. Untyped constant
 
  2. Typed constant
@@ -81,7 +82,17 @@ two types of const: 1. Untyped constant
 
     ex: const name string = "ankit jha"
     const age int = 18
+
+** note: need to specify value at same line otherwise throw an error.
+
+	const name - throw error, if you think to assign later.
+	so, assign and declare constant at the same time.
+	-	default or zero value does not apply here.
+
+	- don't use shorthand variable assignment operator for constant.
+		otherwise throw error.
 */
+
 const LoginToken string = "LoveYouAll"
 
 // note: 1st character of variable is capital because we want to tell that it is public.
