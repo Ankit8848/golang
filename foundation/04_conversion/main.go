@@ -52,4 +52,62 @@ func main() {
 			that the value will remain intact.
 
 
+	=> int to float
+
+	func main() {
+		var i int = 69
+		var f float64 = float64(i)
+		fmt.Printf("%.2f\n", f)
+	}
+
+
+	=> float to int
+
+	func main() {
+
+		var f float64 = 69.69
+		var i int = int(f)
+		fmt.Printf("%v\n", i)
+	}
+
+
+	=> strconv package
+
+	1. Itoa()
+		- Converts integer to string
+		- returns one value - string formed with the given integer.
+
+
+	ex- int to string
+
+	package main
+	import( "fmt"
+	"strconv")
+
+	func main() {
+		var i int = 69
+		var s string = strconv.Itoa(i) // to convert int to string
+		fmt.Println("%q", s)
+	}
+
+
+	2. Atoi()
+			- converts string to integer
+			- returns two values - the corresponding integer, error (if any).
+
+
+	ex- string to integer
+
+	package main
+	import( "fmt"
+	"strconv")
+
+	func main() {
+		var s string = "108"
+		i, err := strconv.Atoi(s)
+		fmt.Printf("%v, %T \n", i, i)
+		fmt.Printf("%v, %T", err, err)
+	}
+
+
 */
