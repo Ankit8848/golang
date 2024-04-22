@@ -44,3 +44,12 @@ func main() {
 		fmt.printf("variable value= %v is of type %v \n",name1, reflect.TypeOf(name1))
 		}
 */
+
+/*
+	type casting -
+		- The process of converting one data type to another is known as Type casting.
+		- Data types can be converted to other data types, but this does not guarantee
+			that the value will remain intact.
+
+
+*/

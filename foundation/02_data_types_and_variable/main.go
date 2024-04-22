@@ -12,10 +12,16 @@ String(16 bytes)
 Bool(1 byte)	true  false
 Integer 	uint8	uint64	int8	int64	uintptr 	alias
 Floating	float32		float64
-Complex
+Complex		complex64	complex128
+
+complex64=> 8 bytes     1+2i
+complex128 => 16 bytes  4+2i
+
+const PI float64 = 3.141592 - like enums or env. vars.
 
 
 Others:  Arrays	 Slices		Maps	Structs		Pointers	Functions	Channels ...
+
 
 
 For	Integer
@@ -30,7 +36,7 @@ For	Integer
 		int16		16 bits or 2 bytes
 		int32		32 bits or 4 bytes
 		int64		64 bits or 8 bytes
-		int			4 bytes for 32-bit machines, 8 bytes for 64-bit machines
+		int			4 bytes for 32-bit machines, 8 bytes for 64-bit machines => alias are - rune
 
 		-uint means unsigned integer. where only + value include.
 		-int means signed integer. where both + or - value include.
@@ -57,7 +63,17 @@ const LoginToken string = "LoveYouAll"
 
 // note: 1st character of variable is capital because we want to tell that it is public.
 // so, it can be accessible anywhere.
+
+// Public => var name starts with capital letter
+// private => var name starts with small letter
+
 func main() {
+	var username string
+	fmt.Println("Username declared: ", username)
+	// created but not declared so, it will give empty string.
+
+	username = "Ankit Jha"
+	fmt.Println("Username assigned: ", username)
 	var name string = "ankit"
 	var user string = "jha"
 	fmt.Println("welcome here ", name, ", ", user)

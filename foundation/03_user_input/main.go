@@ -54,7 +54,7 @@ func main() {
 	fmt.Printf("Marks: %d", marks)
 
 	// user input
-	// Scanf
+	// Scanf which provided by fmt package
 	// fmt.Scanf("%<format specifier > (s)", object_arguments)
 	// var name1 string
 	// fmt.Println("Enter Your Name: ")
