@@ -96,7 +96,7 @@ func main() {
 			- returns two values - the corresponding integer, error (if any).
 
 
-	ex- string to integer
+	ex1- string to integer
 
 	package main
 	import( "fmt"
@@ -104,6 +104,19 @@ func main() {
 
 	func main() {
 		var s string = "108"
+		i, err := strconv.Atoi(s)
+		fmt.Printf("%v, %T \n", i, i)
+		fmt.Printf("%v, %T", err, err)
+	}
+
+	ex2- string to integer
+
+	package main
+	import( "fmt"
+	"strconv")
+
+	func main() {
+		var s string = "108xyz"
 		i, err := strconv.Atoi(s)
 		fmt.Printf("%v, %T \n", i, i)
 		fmt.Printf("%v, %T", err, err)
